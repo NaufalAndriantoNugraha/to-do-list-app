@@ -63,3 +63,35 @@
   text-decoration: underline;
   margin-bottom: 8px;
 }
+
+#section-incomplete-task-list-parent {
+  list-style-type: none;
+}
+
+.section-incomplete-task-list-children {
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.section-incomplete-task-list-children-content {
+  margin: auto 4px;
+  /* border: none; */
+}
+
+.section-incomplete-task-list-children-delete {
+  display: inline;
+  margin-top: -4px;
+  float: right;
+  border: 1px solid black;
+  padding: 2px;
+  cursor: pointer;
+  font-weight: normal;
+  border-radius: 4px;
+}
+
+.section-incomplete-task-list-children-delete:hover {
+  background-color: black;
+  color: white;
+}
