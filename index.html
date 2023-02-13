@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TO DO LIST</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-header">
+        <h1 id="section-header-title">TO DO LIST</h1>
+        <label for="new-task" id="section-header-label">ADD TASK</label>
+        <input type="text" id="section-header-input" />
+        <h3 id="section-header-button">Add</h3>
+      </div>
+      <div class="section-incomplete-task">
+        <h3 id="section-incomplete-task-title">TO DO</h3>
+        <ul id="section-incomplete-task-list-parent">
+          <li id="section-incomplete-task-list-children">
+            <input type="checkbox" id="section-incomplete-task-list-children-checkbox" />
+            <label id="section-incomplete-task-list-children-content">Learn JavaScript!</label>
+            <h3 id="section-incomplete-task-list-children-delete">Delete</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
